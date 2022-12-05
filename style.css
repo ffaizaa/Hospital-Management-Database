@@ -1,0 +1,228 @@
+@import url('https //fonts.googleapis.com/css family=poppins');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-blend-mode: color;
+    background-image: url("back.avif");
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+.container
+{
+    position: center;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+   
+
+   
+}
+.container .left_side
+{
+    position: relative;
+    background-color: darkslategray;
+    padding: 40px;
+}
+.container .right_side
+{
+    position: relative;
+    background-color: beige;
+    padding: 40px;
+}
+
+.prof
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(22, 22, 22, 0.5);
+}
+
+.prof .img
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.prof .img img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.prof h2
+{
+    color: rgb(243, 252, 254);
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.prof h2 span
+{
+    color: rgb(243, 252, 254);
+    font-size: .8em;
+    margin-top: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 200;
+    line-height: .5em;
+}
+.contacts
+{
+    padding-top: 40px;
+
+}
+.title
+{
+    color: darkgrey;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-top: 75px;
+}
+.contacts ul
+{
+    position: relative;
+}
+
+.contacts ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.contacts ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: aquamarine;
+
+}
+.contacts ul li span
+{
+  color: aliceblue;
+}
+.about .title2
+{
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: darkcyan;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(110, 126, 215, 0.5);
+}
+.about p
+{
+    color: rgb(50, 47, 47);
+    font-size: medium;
+    font-size: 1.3rem;
+}
+.Edu .title3
+{
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: darkcyan;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(110, 126, 215, 0.5);
+}
+
+.Edu li h3
+{
+    position: relative;
+    color: cornflowerblue;
+    letter-spacing: .5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+}
+.Skill .title4
+{
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: darkcyan;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(110, 126, 215, 0.5);
+}
+.Skill ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(66, 59, 155);
+
+}
+
+.Skill ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.Skill ul li span
+{
+    color: rgb(50, 47, 47)
+}
+
+.Hobby .title5
+{
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: darkcyan;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(110, 126, 215, 0.5);
+}
+.Hobby ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(66, 59, 155);
+
+}
+
+.Hobby ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.Hobby ul li span
+{
+    color: rgb(50, 47, 47)
+}

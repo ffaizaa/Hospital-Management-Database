@@ -1,0 +1,94 @@
+@import url('https //fonts.googleapis.com/css family=poppins');
+*
+
+body 
+{   font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    min-height: 72vh;
+    background-color: #2E2442;
+    
+}
+* {box-sizing: border-box}
+
+input[type=text], input[type=dept_name],input[type=Number_of_Patient] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #becbeb;
+  border-radius: 12px;
+  font-family: cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+
+
+
+hr {
+  border: 1px solid #6cacbe;
+  margin-bottom: 25px;
+}
+
+
+button {
+  background-color: #4cd86c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 12px;
+  cursor: pointer;
+  margin: auto;
+  opacity: .8;
+  font-size: 30px;
+}
+
+button:hover {
+opacity:1.2;
+-ms-transform: scale(1.2); /* IE 9 */
+-webkit-transform: scale(1.2); /* Safari 3-8 */
+transform: scale(1.2); 
+}
+
+
+.home {
+  padding: 14px 20px;
+  background-color: #2518d4;
+}
+
+
+.home, .signinbtn {
+  float: left;
+  width: 50%;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 50px) {
+  .home, .signinbtn {
+     width: 100%;
+  }
+}
+form{
+    margin-top: 250px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 12px;
+    color:  white;
+    border-color: #2E2442;
+}
+a{
+  color: whitesmoke;
+}

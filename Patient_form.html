@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin login</title>
+    <link rel="stylesheet" href="Patient_form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+</head>
+
+<body>
+    <form action="Patient_form.php" style="border:5px solid rgb(208, 172, 172)" method="post">
+        <div class="container">
+          <h1>Patient Information</h1>
+          <p>Enter Information</p>
+          <hr>
+      
+          <label for="Name"><b>ID</b></label>
+          <input   type="text" placeholder="Enter ID" name="P_ID" required>
+      
+          <label for="First-Name"><b>First-Name</b></label>
+          <input  type="text" placeholder="Enter First-Name" name="FIRST_NAME" required>
+      
+          <label for="Last-Name"><b>Last-Name</b></label>
+          <input type="text" placeholder="Enter last-Name" name="LAST_NAME" required>
+
+          <label for="Phone-number"><b>Phone number</b></label>
+          <input type="text" placeholder="Enter Phone-number" name="PHONE_NUMBER" required>
+
+          <label for="Address"><b>Address</b></label>
+          <input type="text" placeholder="Enter Address" name="ADDRESS" required>
+
+          <label for="Disease"><b>Disease</b></label>
+          <input type="text" placeholder="Enter Disease" name="DISEASE" required>
+
+          <label for="Bill"><b>Bill</b></label>
+          <input type="text" placeholder="Enter Bill" name="BILL">
+
+          <label for="Patient-type"><b>Are you here for "checkup" or "admit"?</b></label>
+          <input type="text" placeholder="Enter your checkup for checkup or admit for admit patient." name="PATIENT_TYPE" required>
+
+          <label for="Cabin-number"><b>Cabin number</b></label>
+          <input type="text" placeholder="Enter Cabin number[only for admitted patient]" name="CABIN_NO">
+
+          <label for="From-date"><b>Admit start date</b></label>
+          <input type="text" placeholder="Enter start date[only for admitted patient]" name="FROM_DATE">
+          
+          <label for="To-date"><b>Admit end date</b></label>
+          <input type="text" placeholder="Enter end date[only for admitted patient]" name="TO_DATE">
+
+          
+          
+          <div class="clearfix">
+            <button type="button" class="home"><a href="index.html">Home</button></a></button>
+            <button type="submit" class="signinbtn">Confirm</button>
+          </div>
+        </div>
+      </form>
+     
+</body>
+
+
+</html>

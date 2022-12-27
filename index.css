@@ -1,0 +1,53 @@
+@import url('https //fonts.googleapis.com/css family=poppins');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    
+    
+    background-color: #2E2442;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    
+    
+}
+
+.USER button {
+    background-color: whitesmoke; 
+    border: 1px solid rgb(31, 25, 55); 
+    color: rgb(2, 1, 2); 
+    padding: 20px 30px; 
+    cursor:pointer; 
+    width: 100%; 
+    display: block; 
+    font-family: cursive;
+    font-size: 30px;
+    transition: width 1s ease-in, height 1s ease-in;
+    border-radius: 12px;
+    font-weight: bold;
+  }
+  .USER:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .USER button:not(:last-child) {
+    border-right: none; 
+  }
+  .USER button:hover {
+    
+    background-color: #0868ee;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    
+  }
+  a{
+    color: #10f59279;
+  }

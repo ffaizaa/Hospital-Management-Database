@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 27, 2022 at 11:12 AM
+-- Generation Time: Dec 27, 2022 at 05:36 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -38,7 +38,16 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`A_ID`, `first_name`, `last_name`) VALUES
-('1', 'Rezaul', 'Karim');
+('1', 'Rafat', 'Karim'),
+('10', 'Najmun', 'Nahar'),
+('2', 'Hector', 'Bellerin'),
+('3', 'Mojahidul', 'Islam'),
+('4', 'Zedan', 'Ahmed'),
+('5', 'Zahin', 'Haque'),
+('6', 'Sithi', 'Alam'),
+('7', 'Mushfiqur', 'Hasan'),
+('8', 'Mohfazzal', 'Niaz'),
+('9', 'Nayem', 'Hossain');
 
 -- --------------------------------------------------------
 
@@ -112,7 +121,46 @@ CREATE TABLE `doctor` (
 --
 
 INSERT INTO `doctor` (`D_ID`, `FIRST_NAME`, `LAST_NAME`, `SPECIALTY`, `SALARY`, `PHONE_NUMBER`) VALUES
-('1', 'Shadad', 'Parvez', 'Surgeon', 10000, 2145432);
+('1', 'Shadad', 'Parvez', 'Surgeon', 10000, 2145432),
+('10', 'Sumana', 'Haque', 'Gynecologist', 7000, 856923),
+('11', 'Yusuf', 'Aftab', 'Medicine', 6000, 4617682),
+('12', 'Lutfullah', 'Hasan', 'Health Care', 5000, 9774716),
+('13', 'Nasima ', 'Akter', 'Gastrologist', 6500, 635173),
+('14', 'Fahad', 'Abdullah', 'Medicine', 700, 635173),
+('15', 'Middat', 'Gahni', 'Medicine', 7500, 635173),
+('16', 'Raqatul', 'Zaman', 'Medicine', 7500, 2341235),
+('17', 'Wakib', 'Hossain', 'Neurologist', 7000, 483817),
+('18', 'Wasika', 'Amin', 'Cardiology', 7000, 8742718),
+('19', 'Samin', 'Hassan', 'Cosmetic Surger', 7500, 478191),
+('2', 'Niaz', 'Hakim', 'Urology', 650000, 1236975125),
+('20', 'Tashfia', 'Rahman', 'Cosmetic Surger', 7500, 8734718),
+('21', 'Sabrina', 'Murshed', 'Gynaecology', 80000, 1236579921),
+('22', 'Shahida', 'Hossain', 'Nutrition', 60000, 236547891),
+('23', 'Farzana', 'Hossain', 'Fertility Cente', 98000, 23654789),
+('24', 'Ajay', 'Hossain', 'Endocrinology', 70000, 123659751),
+('25', 'Anam', 'Hassan', 'Hematology', 50000, 1254789653),
+('26', 'Afra', 'Anam', 'Nephrology', 65000, 2147483647),
+('27', 'Marufa', 'Anam', 'Homeotherapy', 45000, 1236547951),
+('28', 'Faiza', 'Hassan', 'Gastroenterolog', 100000, 12364795),
+('29', 'Muktadir', 'Ahmed', 'Dental ', 100000, 125975631),
+('3', 'Achraf', 'Hakimi', 'Child Developme', 75000, 236598745),
+('30', 'Ahmed', 'Mubin', 'Dermatology', 65000, 12365478),
+('31', 'Soufain', 'Saiss', 'Anaesthesia', 1200000, 2365975),
+('32', 'Muktadir', 'Ali', 'Cardiology', 32000, 2147483647),
+('33', 'Wasim', 'Akram', 'Cosmetic Surger', 50000, 56974512),
+('34', 'Nasim', 'Uddin', 'Endocrinology', 65000, 741256930),
+('35', 'Shahid', 'Ali', 'Lithiotripsy', 70000, 2147483647),
+('36', 'Sumaira', 'Ali', 'ENT', 8000, 12546934),
+('37', 'Samiha', 'Islam', 'Neurology', 75000, 2147483647),
+('38', 'Faiza', 'Islam', 'Cardiology', 76200, 2147483647),
+('39', 'Taiba', 'Hossain', 'ENT', 85620, 302145694),
+('4', 'Tausif', 'Hassan', 'Surgeon', 5000, 6742645),
+('40', 'Augustine', 'Matthews', 'Homeotherapy', 65000, 12365789),
+('5', 'Parvez', 'Reza', 'Surgeon', 6500, 3461364),
+('6', 'Mahmudul', 'Kazi', 'Neurologist', 6000, 434163),
+('7', 'Zedan', 'Ahmed', 'Cardiology', 7000, 4531467),
+('8', 'Tashfia', 'Karim', 'Gynecologist', 7000, 3416547),
+('9', 'Zakaria', 'Mostafa', 'Gastrologist', 6000, 3416547);
 
 -- --------------------------------------------------------
 
@@ -133,7 +181,36 @@ CREATE TABLE `laboratorist` (
 --
 
 INSERT INTO `laboratorist` (`L_ID`, `FIRST_NAME`, `LAST_NAME`, `SALARY`, `PHONE_NUMBER`) VALUES
-('1', 'Parvez', 'Shariar', 5500, 312126457);
+('1', 'Parvez', 'Shariar', 5500, 312126457),
+('10', 'Likhon', 'Rozario', 7500, 346518),
+('11', 'Ahnaf', 'Sayera', 25000, 12365978),
+('12', 'Ridita', 'Hassan', 40000, 12589745),
+('13', 'Fayez', 'Afrina', 30000, 2147483647),
+('14', 'Afrina', 'Salwar', 35000, 123657894),
+('15', 'Unaisa', 'Khan', 20000, 12365978),
+('16', 'Yasin', 'Muktadir', 30000, 123657120),
+('17', 'Muktadir', 'Khan', 35000, 2147483647),
+('18', 'Yahia', 'Khan', 12000, 254789642),
+('19', 'Yanam', 'Lily', 25000, 2147483647),
+('2', 'Charles', 'Rozario', 8000, 2316412),
+('20', 'Suraiya', 'Ahmed', 33000, 125478653),
+('21', 'Augustine', 'Hanks', 30000, 1230254789),
+('22', 'Poushi', 'Khan', 35000, 123659751),
+('23', 'Paromita', 'Dey', 24000, 236547951),
+('24', 'Walida', 'Arambat', 26000, 78401693),
+('25', 'Boufal', 'Khan', 32000, 2147483647),
+('26', 'Indira', 'Khan', 33000, 1203659751),
+('27', 'Muktakim', 'Hassan', 35000, 1236598745),
+('28', 'Muntasim', 'Haider', 41000, 2147483647),
+('29', 'Fariha', 'Faizan', 12300, 236547995),
+('3', 'Veronica ', 'Rodrick', 7000, 9642225),
+('30', 'Fouzia', 'Iram', 45000, 23154965),
+('4', 'Badrul', 'Hooda', 7500, 9747128),
+('5', 'Austin', 'Gomes', 7000, 8753842),
+('6', 'Mithun', 'DCosta', 8000, 862424),
+('7', 'Maliha', 'Islam', 8000, 635178),
+('8', 'Akif', 'Sharriar', 7000, 5436718),
+('9', 'Maksudur', 'Rahman', 6500, 3461894);
 
 -- --------------------------------------------------------
 
@@ -268,7 +345,26 @@ CREATE TABLE `receptionist` (
 --
 
 INSERT INTO `receptionist` (`R_ID`, `FIRST_NAME`, `LAST_NAME`, `Salary`, `PHONE_NUMBER`, `DESK_NUMBER`) VALUES
-('1', 'Sara', 'Islam', 2000, 2341355, 2);
+('1', 'Sara', 'Islam', 2000, 2341355, 1),
+('10', 'Sakira', 'Khan', 8500, 12547996, 1),
+('11', 'Wahida', 'Lily', 3900, 32569745, 22),
+('12', 'Wamia', 'Walid', 5630, 2147483647, 3),
+('13', 'Rimi', 'Hossain', 23654, 23659756, 4),
+('14', 'Rita', 'Hossain', 5603, 1789654125, 4),
+('15', 'Rina', 'Hassan', 6630, 1256987456, 7),
+('16', 'Rina', 'Latif', 1120, 18975269, 7),
+('17', 'Shakila', 'Latif', 12360, 125697563, 9),
+('18', 'Mukta', 'Hassan', 10230, 1256975632, 10),
+('19', 'Mukta', 'Khan', 8520, 12365987, 6),
+('2', 'Sajjad', 'Hossain', 2000, 4758465, 1),
+('20', 'Farjana', 'Khan', 26350, 123659751, 5),
+('3', 'Fatema', 'Zahoora', 1500, 3463178, 2),
+('4', 'Neha', 'Hossain', 2000, 4735811, 2),
+('5', 'Fahim', 'Razzak', 2500, 874518, 3),
+('6', 'Shopnil', 'Dewan', 2000, 374781, 4),
+('7', 'Sumaita', 'Bose', 4500, 326597158, 5),
+('8', 'Shifa', 'Haque', 2000, 5487181, 5),
+('9', 'Samia', 'Afrin', 10000, 23245896, 6);
 
 --
 -- Indexes for dumped tables
